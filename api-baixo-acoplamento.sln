@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-baixo-acoplamento", "api-baixo-acoplamento\api-baixo-acoplamento.csproj", "{2A81CC61-9BF6-4512-8463-71A7B29866C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D02F6A12-7DCF-47FB-B724-7201882C229A}"
+	ProjectSection(SolutionItems) = preProject
+		pacotes para adicionar a api quando iniciar.txt = pacotes para adicionar a api quando iniciar.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-baixo-acoplamento.Ioc", "api-baixo-acoplamento.Ioc\api-baixo-acoplamento.Ioc.csproj", "{2E8FCB0F-97BD-4E06-8E38-91815AF577E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-baixo-acoplamento.Domain", "api-baixo-acoplamento.Domain\api-baixo-acoplamento.Domain.csproj", "{545A674B-42F8-4E66-89C6-79180A81185B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-baixo-acoplamento.Infra", "api-baixo-acoplamento.Infra\api-baixo-acoplamento.Infra.csproj", "{41467584-9DA5-43CB-A645-9245948ECD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-baixo-acoplamento.Application", "api-baixo-acoplamento.Application\api-baixo-acoplamento.Application.csproj", "{9041AAEE-28E7-4932-AE81-1D3DC1923968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A81CC61-9BF6-4512-8463-71A7B29866C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A81CC61-9BF6-4512-8463-71A7B29866C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A81CC61-9BF6-4512-8463-71A7B29866C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A81CC61-9BF6-4512-8463-71A7B29866C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8FCB0F-97BD-4E06-8E38-91815AF577E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8FCB0F-97BD-4E06-8E38-91815AF577E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8FCB0F-97BD-4E06-8E38-91815AF577E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8FCB0F-97BD-4E06-8E38-91815AF577E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545A674B-42F8-4E66-89C6-79180A81185B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545A674B-42F8-4E66-89C6-79180A81185B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545A674B-42F8-4E66-89C6-79180A81185B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545A674B-42F8-4E66-89C6-79180A81185B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41467584-9DA5-43CB-A645-9245948ECD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41467584-9DA5-43CB-A645-9245948ECD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41467584-9DA5-43CB-A645-9245948ECD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41467584-9DA5-43CB-A645-9245948ECD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9041AAEE-28E7-4932-AE81-1D3DC1923968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9041AAEE-28E7-4932-AE81-1D3DC1923968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9041AAEE-28E7-4932-AE81-1D3DC1923968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9041AAEE-28E7-4932-AE81-1D3DC1923968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

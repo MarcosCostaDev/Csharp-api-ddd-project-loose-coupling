@@ -1,0 +1,22 @@
+//Pacotes para criação da api limpa
+
+//NUGET
+//Iniciar a API com autenticação e segurança
+
+Microsoft.AspNet.WebApi.Owin
+Microsoft.Owin.Host.SystemWeb
+Microsoft.Owin.Security.OAuth
+Microsoft.Owin.Cors //Restringir dominios para consumir sua API
+
+//Injeção de dependencia
+Unity 
+
+//Inversão de controle para web api
+SimpleInjector.Integration.WebApi 
+
+//Inversão de controle para class library
+SimpleInjector
+
+
+//Para zipar o conteúdo da api
+Microsoft.AspNet.WebApi.Extension.Compression.Server
